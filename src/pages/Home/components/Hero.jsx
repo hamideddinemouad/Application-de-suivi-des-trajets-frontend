@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Hero() {
   return (
     <section>
@@ -15,18 +17,13 @@ export default function Hero() {
       </p>
 
       <div className="mt-6 flex flex-col sm:flex-row gap-3">
-        <a
-          href="login.html"
-          className="inline-flex items-center justify-center rounded-xl bg-slate-900 px-5 py-3 text-sm font-semibold text-white hover:bg-slate-800"
-        >
-          Sign in
-        </a>
-        <a
-          href="register.html"
+        <Link to="/login" className="inline-flex items-center justify-center rounded-xl bg-slate-900 px-5 py-3 text-sm font-semibold text-white hover:bg-slate-800">  Sign in</Link>
+        <Link
+          to="/register"
           className="inline-flex items-center justify-center rounded-xl border border-slate-300 px-5 py-3 text-sm font-semibold hover:bg-slate-50"
         >
           Create account
-        </a>
+        </Link>
       </div>
 
       <div className="mt-8 grid grid-cols-1 sm:grid-cols-3 gap-3">
@@ -50,5 +47,17 @@ export default function Hero() {
         </div>
       </div>
     </section>
+    //     <Link
+    //   to="/login"
+    //   className="rounded-xl bg-slate-900 px-4 py-2.5 text-sm font-semibold text-white hover:bg-slate-800"
+    // >
+    //   Sign in{" "}
+    // </Link>
+    // <Link
+    //   to="/Register"
+    //   className="inline-flex items-center justify-center rounded-xl border border-slate-300 px-5 py-2.5 text-sm font-semibold hover:bg-slate-50"
+    // >
+    //   Create account
+    // </Link>
   );
 }

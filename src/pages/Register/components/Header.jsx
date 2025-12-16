@@ -5,9 +5,9 @@ export default function Header() {
         <span className="text-xl font-bold">FC</span>
       </div>
 
-      <h1 className="text-2xl font-semibold">Sign in to FleetCo</h1>
+      <h1 className="text-2xl font-semibold">Create your account</h1>
       <p className="mt-2 text-sm text-slate-600">
-        Manage your truck fleet efficiently.
+        Get started with FleetCo fleet management.
       </p>
     </div>
   );
