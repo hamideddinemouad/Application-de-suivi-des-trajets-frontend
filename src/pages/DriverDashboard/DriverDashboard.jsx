@@ -1,9 +1,9 @@
-import Header from "./components/Header";
+
 
 export default function DriverDashboard() {
   return (
     <div className="min-h-screen bg-slate-100 text-slate-900">
-      <Header />
+
       <main className="mx-auto max-w-5xl px-4 py-8 space-y-6">
         <section>
           <h1 className="text-2xl font-semibold">Good day 👋</h1>
