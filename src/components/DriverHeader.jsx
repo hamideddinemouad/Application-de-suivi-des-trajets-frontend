@@ -9,13 +9,13 @@ export default function DriverHeader() {
           </div>
           <div className="leading-tight">
             <p className="font-semibold">FleetCo</p>
-            <p className="text-xs text-slate-500">Admin</p>
+            <p className="text-xs text-slate-500">Driver</p>
           </div>
         </div>
 
         <nav className="hidden md:flex items-center gap-2">
           <NavLink
-            href="admin-trips.html"
+            to="/driver"
             className="rounded-xl px-3 py-2 text-sm font-semibold text-slate-700 hover:bg-slate-100"
           >
             Trips
